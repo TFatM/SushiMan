@@ -1,0 +1,125 @@
+.about-us{
+  height: 720px;
+
+  &__fish{
+    position: absolute;
+    width: 540px;
+    height: 356px;
+    top: 846px;
+    background-color: rgb(255, 240, 222);
+
+    &__image{
+      position: relative;
+      top: 78px;
+      left: 80px;
+      width: 224.28px;
+      height: 200.35px;
+    }
+
+    &__text{
+      position: absolute;
+      top: 27px;
+      left: 384px;
+      font-family: Arial, sans-serif;
+      font-weight: 700;
+      font-size: 120px;
+      line-height: 138px;
+      opacity: 10%;
+      color: rgb(177, 69, 74);
+    }
+  }
+
+  &__sushi{
+  position: absolute;
+  top: 1210px;
+  width: 540px;
+  height: 356px;
+  background-color: rgb(255, 240, 222);
+
+  &__image{
+    position: relative;
+    top: 98px;
+    left: 80px;
+    width: 240px;
+    height: 160px;
+  }
+
+  &__text {
+    position: absolute;
+    top: 54px;
+    left: 384px;
+    font-family: Arial, sans-serif;
+    font-weight: 700;
+    font-size: 120px;
+    line-height: 138px;
+    opacity: 10%;
+    color: rgb(177, 69, 74);
+  }
+  }
+
+  &__button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+    top: 1177px;
+    left: 340px;
+    width: 200px;
+    height: 64px;
+    gap: 32px;
+    border-radius: 500px 0px 0px 500px;
+    font-family: PlusJakartaSans, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(18, 18, 18);
+
+    &__vector{
+        display: inline-block;
+          width: 1em;
+          height: 1em;
+          stroke-width: 0;
+          stroke: currentColor;
+          fill: rgb(255, 255, 255);
+    }
+  }
+
+  &__description-top{
+    position: absolute;
+    top: 993px;
+    left: 640px;
+    opacity: 80%;
+    font-family: PlusJakartaSans, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 200%;
+    letter-spacing: -0.1px;
+    color: rgb(177, 69, 74);
+  }
+
+  &__title{
+    position: absolute;
+    top: 1045px;
+    left: 640px;
+    font-family: PlayfairDisplay ,serif;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 140%;
+    color: rgb(18, 18, 18);
+  }
+
+  &__description{
+    position: absolute;
+    top: 1347px;
+    left: 640px;
+    opacity: 80%;
+    font-family: PlusJakartaSans ,sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 200%;
+    letter-spacing: -0.1px;
+    color: rgb(18, 18, 18);
+  }
+}

@@ -1,0 +1,44 @@
+.header{
+  &__logo{
+    position: absolute;
+    top: 48px;
+    left: 80px;
+    opacity: 90%;
+    font-family: PlayfairDisplay, serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+  &__list{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 555px;
+    top: 52px;
+    left: 815px;
+    gap: 64px;
+    padding: 0;
+    &__link{
+      text-decoration: none;
+      font-family: PlusJakartaSans, sans-serif;
+      font-weight: 500;
+      font-size: 16;
+      line-height: 20px;
+      color: rgb(18, 18, 18);
+      text-transform: uppercase;
+    }
+    &__button{
+      position: relative;
+      width: 24px;
+      height: 24px;
+      border: none;
+      background-color: transparent;
+      border-radius: 0px;
+      color: transparent;
+    }
+  }
+}

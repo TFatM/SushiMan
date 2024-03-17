@@ -1,0 +1,49 @@
+.foods{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 1037px;
+  background-color: rgb(177, 69, 74);
+  overflow: hidden;
+
+  &__trans-top{
+    position: absolute;
+    top: 1350px;
+    left: 10px;
+    transform: rotate(90deg);
+    opacity: 4%;
+    font-family: Arial, sans-serif;
+    font-weight: 700;
+    font-size: 200px;
+    line-height: 230px;
+    color: rgb(18, 18, 18);
+  }
+
+  &__trans-bottom {
+    position: absolute;
+    width: 200px;
+    height: 690px;
+    overflow: hidden;
+    top: 2140px;
+    left: 1070px;
+    transform: rotate(90deg);
+    opacity: 4%;
+    font-family: Arial, sans-serif;
+    font-weight: 700;
+    font-size: 200px;
+    line-height: 230px;
+    color: rgb(18, 18, 18);
+  }
+
+  &__title{
+    position: absolute;
+    top: 1686px;
+    // left: 449px;
+    font-family: PlayfairDisplay, serif;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 140%;
+    color: rgb(255, 255, 255);
+  }
+}

@@ -1,0 +1,199 @@
+.hero-section{
+  width: 100%;
+  height: 846px;
+
+  &__Sushi-image{
+    position: absolute;
+    z-index: 1;
+    // width: 659.15px;
+    // height: 609.71px;
+    top: 6.47px;
+    left: -280px;
+    rotate: -176.8;
+  }
+
+  &__title{
+    position: absolute;
+    top: 179px;
+    left: 640px;
+    font-family: PlayfairDisplay, serif;
+    font-weight: 600;
+    font-size: 88px;
+    line-height: 140%;
+    color: rgb(18, 18, 18);
+  }
+
+  &__description{
+    position: absolute;
+    top: 457px;
+    left: 724px;
+    opacity: 80%;
+    font-family: PlusJakartaSans, serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 200%;
+    letter-spacing: -1%;
+    color: rgb(18, 18, 18);
+  }
+
+  &__orderButton{
+    position: absolute;
+    width: 212px;
+    height: 64px;
+    top: 534px;
+    left: 724px;
+    border: none;
+    border-radius: 36px;
+    background-color: rgb(18, 18, 18);
+    color: rgb(255, 255, 255);
+    font-family: PlusJakartaSans, serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    cursor: pointer;
+  }
+
+  &__wrapper{
+    position: absolute;
+    display: flex;
+    top: 538px;
+    left: 972px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__playButton{
+    padding: 14px 14px 14px 18.67px;
+    width: 46.67px;
+    height: 46.67px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(18, 18, 18);
+    border-radius: 50%;
+    cursor: pointer;
+
+    &__text{
+      margin-left: 12px;
+      align-items: center;
+      font-family: Gilroy, sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+      color: rgb(2, 2, 2);
+    }
+  }
+
+  &__red-square{
+    position: absolute;
+    z-index: -1;
+    width: 540px;
+    height: 846px;
+    background: rgb(177, 69, 74);
+
+    // &__trans{
+    //   position: absolute;
+    //   z-index: 1;
+    //   left: -500px;
+    //   top: 8.79%;
+    //   font-family: Arial;
+    //   font-weight: 700;
+    //   font-size: 240px;
+    //   line-height: 276px;
+    //   color: rgb(255, 255, 255);
+    //   opacity: 0.04;
+    //   transform: rotate(-96.37deg);
+    // }
+
+    &__text{
+            position: absolute;
+            z-index: 1;
+            left: 80px;
+            top: 372px;
+            font-family: Arial;
+            font-weight: 700;
+            font-size: 120px;
+            line-height: 138px;
+            color: rgb(255, 255, 255);
+          }
+        }
+        
+        &__bottom-section{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          position: absolute;
+    z-index: -2;
+    top: 686px;
+    width: 100%;
+    height: 160px;
+    background-color: rgb(255, 240, 222);
+    
+    &__vector{
+      position: absolute;
+      z-index: 1;
+      width: 80px;
+      left: 989px;
+      opacity: 10%;
+      font-size: 50px;
+      fill: rgb(2, 2, 2);
+      stroke: black;
+      margin-left: 53px;
+    }
+  }
+  &__customer-counter{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+    top: 22px;
+    left: 640px;
+    width: 296px;
+
+    &__number{
+      font-family: PlayfairDisplay, serif;
+      font-weight: 400;
+      font-size: 82px;
+      line-height: 140%;
+      color: rgb(51, 51, 51);
+
+      span{
+        font-size: 100px;
+      }
+    }
+    &__text{
+      font-family: Gilroy, serif;
+      font-weight: 400;
+      font-size: 25px;
+      line-height: 160%;
+      letter-spacing: -1px;
+      color: rgb(18, 18, 17);
+      padding-left: 28px;
+      padding-bottom: 20px;
+    }
+  }
+
+  
+  &__review-section{
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    left: 1045px;
+    padding-left: 56px;
+    
+    &__photo{
+      width: 48px;
+      height: 48px;
+    }
+    
+    &__comment{
+      font-family: PlusJakartaSans ,sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 150%;
+      letter-spacing: -0.1px;
+      color: rgb(18, 18, 18);
+      opacity: 80%;
+      margin-left: 10px;
+    }
+  }
+}
