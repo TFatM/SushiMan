@@ -95,27 +95,158 @@
       to you.</h2>
       <p class="about-us__description">We will continue to provide the experience of Omotenashi, the Japanese <br>
         mindset of hospitality, with our shopping and dining for our customers.</p>
-  </section>
-  <section class="foods">
-    <h1 class="foods__trans-top">日<br>本<br>食</h1>
-    <h2 class="foods__title">Popular Foods / 人気</h2>
-    <h1 class="foods__trans-bottom">本<br>食</h1>
+      </section>
+      <section class="foods">
+        <h1 class="foods__trans-top">日<br>本<br>食</h1>
+        <h2 class="foods__title">Popular Foods / 人気</h2>
+        <h1 class="foods__trans-bottom">本<br>食</h1>
+        <button class="swiper-prev" type="button">
+          <img 
+          class="swiper-prev__arrow"
+          src="./images/vectors/arrow-right.svg" 
+          alt="arrow-prev">
+        </button>
+        <button class="swiper-next" type="button">
+          <img 
+          class="swiper-next__arrow" 
+          src="./images/vectors/arrow-right.svg" 
+          alt="arrow-next">
+        </button>
       <div class="swiper">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">Slide 1</div>
-          <div class="swiper-slide">Slide 2</div>
-          <div class="swiper-slide">Slide 3</div>
-          <div class="swiper-slide">Slide 4</div>
-          <div class="swiper-slide">Slide 5</div>
-          <div class="swiper-slide">Slide 6</div>
-          <div class="swiper-slide">Slide 7</div>
-          <div class="swiper-slide">Slide 8</div>
-          <div class="swiper-slide">Slide 9</div>
-          <div class="swiper-slide">Slide 10</div>
+        <div class="swiper-wrapper foods__wrapper">
+          <button type="button" class="swiper-slide foods__slide" id="sushi">
+            <img 
+            class="swiper-slide__img"
+            src="./images/foods-img/original-sushi.svg" 
+            alt="original-sushi">
+            <h4 class="swiper-slide__title">Originale Sushi</h4>
+            <div class="swiper-slide__wrap">
+              <p class="swiper-slide__score">
+                <span class="star">&#9733</span> 4.8</p>
+              <p class="swiper-slide__price">$21.00</p>
+            </div>
+          </button>
+          <button type="button" class="swiper-slide foods__slide">
+            <img 
+            class="swiper-slide__img" 
+            src="./images/foods-img/chezu-sushi.svg" 
+            alt="chezu-sushi">
+            <h4 class="swiper-slide__title">Chezu Sushi</h4>
+            <div class="swiper-slide__wrap">
+              <p class="swiper-slide__score">
+                <span class="star">&#9733</span> 4.7
+              </p>
+              <p class="swiper-slide__price">$16.00</p>
+            </div>
+          </button>
+          <button type="button" class="swiper-slide foods__slide" id="ramen">
+            <img 
+            class="swiper-slide__img" 
+            src="./images/foods-img/ramen-legendo.svg" 
+            alt="ramen-legendo">
+          <h4 class="swiper-slide__title">Ramen Legendo</h4>
+          <div class="swiper-slide__wrap">
+            <p class="swiper-slide__score">
+              <span class="star">&#9733</span> 4.7
+            </p>
+            <p class="swiper-slide__price">$16.00</p>
+          </div>
+        </button>
+          <button type="button" class="swiper-slide foods__slide" id="udon">
+              <img 
+              class="swiper-slide__img" 
+              src="./images/foods-img/udon.svg" 
+              alt="udon">
+              <h4 class="swiper-slide__title">Udon</h4>
+              <div class="swiper-slide__wrap">
+                <p class="swiper-slide__score">
+                  <span class="star">&#9733</span> 4.5
+                </p>
+                <p class="swiper-slide__price">$18.00</p>
+              </div>
+          </button>
+          <button type="button" class="swiper-slide foods__slide" id="danggo">
+            <img 
+            class="swiper-slide__img" 
+            src="./images/foods-img/danggo.svg" 
+            alt="danggo">
+            <h4 class="swiper-slide__title">Danggo</h4>
+            <div class="swiper-slide__wrap">
+              <p class="swiper-slide__score">
+                <span class="star">&#9733</span> 4.8
+              </p>
+              <p class="swiper-slide__price">$15.00</p>
+            </div>
+          </button>
         </div>
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
       </div>
+      <button class="foods__button" type="button">Explore Foods
+        <img 
+        class="foods__button__arrow"
+        src="./images/vectors/arrow-right.svg" 
+        alt="arrow-right">
+      </button>
+  </section>
+  <section class="trending">
+    <div class="trending__container top">
+      <h4 class="trending__head top">What’s Trending / トレンド</h4>
+      <h2 class="trending__title top">Japanese Sushi</h2>
+      <p class="trending__description top">Feel the taste of most delicious Sushi here.</p>
+      <ol class="trending__list left top">
+        <li class="trending__item">Maki Sushi</li>
+        <li class="trending__item">Nigiri Sushi</li>
+        <li class="trending__item">Oshizushi</li>
+      </ol>
+      <ol class="trending__list right top">
+        <li class="trending__item">Temaki Sushi</li>
+        <li class="trending__item">Uramaki Sushi</li>
+        <li class="trending__item">Inari Sushi</li>
+      </ol>
+    </div>
+    <aside class="trending__sushi">
+      <h1 class="trending__sushi__text">ツ<br>ナ</h1>
+      <img
+      class="trending__sushi__img" 
+      src="./images/trending-img/sushi.svg" 
+      alt="trending-sushi">
+    </aside>
+    <button class="trending__button" type="button">DISCOVER</button>
+    <aside class="trending__drinks">
+      <h1 class="trending__drinks__text">飲<br>む</h1>
+      <img 
+      class="trending__drinks__img"
+      src="./images/trending-img/drinks.svg" 
+      alt="trending-drinks">
+    </aside>
+    <div class="trending__container bottom">
+      <h4 class="trending__head bottom">What’s Trending / トレンド</h4>
+      <h2 class="trending__title bottom">Japanese Drinks</h2>
+      <p class="trending__description bottom">Feel the taste of most delicious Japanese drinks here.</p>
+      <ol class="trending__list left bottom">
+        <li class="trending__item">Oruncha</li>
+        <li class="trending__item">Ofukucha</li>
+        <li class="trending__item">Sakura Tea</li>
+      </ol>
+      <ol class="trending__list right bottom">
+        <li class="trending__item">Kombu-cha</li>
+      <li class="trending__item">Aojiru</li>
+      <li class="trending__item">Aojiru</li>
+    </ol>
+  </div>
+  </section>
+  <section class="inbox-section">
+    <h1 class="inbox-section__trans left">寿<br>司<br>エ<br>ナ<br>ク<br></h1>
+    <h1 class="inbox-section__trans right">日<br>本<br>食<br></h1>
+    <h2 class="inbox-section__title">Get offers straight<br>
+    to your inbox</h2>
+    <p class="inbox-section__description">Sign up for the Sushiman newsletter.</p>
+    <form class="inbox-section__form" action="">
+      <input 
+      class="inbox-section__input" 
+      placeholder="Enter email address"
+      type="email">
+      <button class="inbox-section__button" type="submit">Get Started</button>
+    </form>
   </section>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>

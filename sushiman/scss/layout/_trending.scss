@@ -1,0 +1,205 @@
+.trending{
+  display: flex;
+  width: 1442px;
+  height: 1278px;
+
+  &__container{
+    position: absolute;
+    width: 720px;
+    height: 640px;
+
+    &.top{
+      top: 2603px;
+    }
+
+    &.bottom{
+      z-index: 1;
+      top: 3243px;
+      left: 720px;
+    }
+  }
+
+  &__head{
+    position: absolute;
+    font-family: PlusJakartaSans, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 200%;
+    letter-spacing: -0.01px;
+    opacity: 80%;
+    color: rgb(177, 69, 74);
+
+    &.top{
+      top: 133px;
+      left: 81px;
+    }
+
+    &.bottom{
+      top: 135px;
+      left: 100px;
+    }
+  }
+
+  &__title{
+    position: absolute;
+    font-family: PlayfairDisplay, serif;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 140%;
+    color: rgb(18, 18, 18);
+
+    &.top{
+      top: 185px;
+      left: 80px;
+    }
+
+    &.bottom{
+      top: 187px;
+      left: 100px;
+    }
+  }
+
+  &__description{
+    position: absolute;
+    font-family: PlusJakartaSans, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 200%;
+    letter-spacing: -0.01px;
+    color: rgb(18, 18, 18);
+
+    &.top{
+      top: 307px;
+      left: 81px;
+    }
+
+    &.bottom{
+      top: 309px;
+      left: 100px;
+    }
+  }
+
+  &__list{
+    display: flex;
+    flex-direction: column;
+    justify-items:center;
+    position: absolute;
+    gap: 16px;
+
+    &.top{
+      &.left{
+        top: 375px;
+        left: 81px;
+      }
+      
+      &.right{
+        top: 375px;
+        left: 303px;
+      }
+    }
+
+    &.bottom{
+      &.left{
+        top: 377px;
+        left: 100.48px;
+      }
+
+      &.right{
+        top: 377px;
+        left: 322.48px;
+      }
+    }
+  }
+
+  &__item{
+    font-family: PlusJakartaSans, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 200%;
+    color: rgb(18, 18, 17);
+  }
+
+  &__sushi{
+    position: absolute;
+    top: 2603px;
+    left: 720px;
+    width: 799px;
+    height: 640px;
+    background-color: rgb(255, 240, 222);
+
+    &__text{
+      position: absolute;
+      top: 64px;
+      left: 520px;
+      opacity: 10%;
+      font-family: Arial, sans-serif;
+      font-weight: 700;
+      font-size: 120px;
+      line-height: 138px;
+      color: rgb(177, 69, 74);
+    }
+
+    &__img{
+      position: absolute;
+      top: 190px;
+      left: 233px;
+      width: 254px;
+      height: 260px;
+    }
+  }
+
+  &__drinks{
+    position: absolute;
+    z-index: 1;
+    top: 3243px;
+    width: 720px;
+    height: 638px;
+    background-color: rgb(255, 240, 222);
+
+    &__text{
+      position: absolute;
+      top: 64px;
+      left: 80px;
+      opacity: 10%;
+      font-family: Arial, sans-serif;
+      font-weight: 700;
+      font-size: 120px;
+      line-height: 138px;
+      color: rgb(177, 69, 74);
+    }
+
+    &__img{
+      position: absolute;
+      top: 180px;
+      left: 255px;
+      width: 209px;
+      height: 280px;
+    }
+  }
+
+  &__button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 2;
+    top: 3163px;
+    left: 640px;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    font-family: PlusJakartaSans, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    border: rgb(18, 18, 18) solid 5px;
+    background-color: rgb(18, 18, 18);
+    color: rgb(255, 255, 255);
+    transition: background-color 0.3s;
+
+    &:hover{
+      background-color: rgb(255, 255, 255);
+      color: rgb(0, 0, 0);
+    }
+  }
+}

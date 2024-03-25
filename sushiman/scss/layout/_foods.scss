@@ -46,4 +46,29 @@
     line-height: 140%;
     color: rgb(255, 255, 255);
   }
+
+  &__button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 2419px;
+    left: 608px;
+    width: 224px;
+    height: 64px;
+    border-radius: 500px;
+    font-family: PlusJakartaSans, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    gap: 16px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(18, 18, 18);
+    
+    &__arrow{
+      width: 24px;
+      height: 24px;
+      filter: invert(100%);
+    }
+  }
 }

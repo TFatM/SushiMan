@@ -1,0 +1,99 @@
+.inbox-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 640px;
+  background-color: rgb(177, 69, 74);
+
+  &__trans{
+    position: absolute;
+    overflow: hidden;
+    opacity: 5%;
+    z-index: 0;
+    font-family: Arial, sans-serif;
+    font-weight: 700;
+    font-size: 240px;
+    line-height: 276px;
+    color: rgb(255, 255, 255);
+
+    &.left{
+      top: 3513px;
+      left: 60px;
+    }
+
+    &.right{
+      top: 3796px;
+      left: 1140px;
+    }
+  }
+
+  &__title{
+    position: absolute;
+    top: 3982px;
+    text-align: center;
+    font-family: PlayfairDisplay, serif;
+    font-weight: 600;
+    font-size: 88px;
+    line-height: 140%;
+    color: rgb(255, 255, 255);
+  }
+
+  &__description{
+    position: absolute;
+    top: 4260px;
+    text-align: center;
+    font-family: PlusJakartaSans, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 200%;
+    letter-spacing: -0,01px;
+    color: rgb(255, 255, 255);
+  }
+
+  &__form{
+    position: absolute;
+    top: 4336px;
+  }
+
+  &__input{
+    width: 481px;
+    height: 88px;
+    border: rgb(255, 255, 255) 1px solid;
+    border-radius: 46px;
+    opacity: 100%;
+    background-color: rgba(255, 255, 255, 0.05);
+    padding-left: 26px;
+    font-family: PlusJakartaSans, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 200%;
+    color: rgb(31, 30, 49);
+
+    &::placeholder{
+      opacity: 50%;
+    }
+  }
+
+
+  &__button{
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    width: 180px;
+    height: 60px;
+    border-radius: 46px;
+    font-family: PlusJakartaSans, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    background-color: rgb(31, 30, 49);
+    color: rgb(255, 255, 255);
+    transition: background-color 0.3s;
+
+    &:hover{
+      background-color: rgb(255, 255, 255);
+      color: black;
+    }
+  }
+}
